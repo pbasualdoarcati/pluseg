@@ -1,0 +1,14 @@
+.containerFooter{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    .footerIcons{
+        color: #073DAF;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+
+}

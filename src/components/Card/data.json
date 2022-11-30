@@ -1,0 +1,27 @@
+[
+    {
+        "icon":"/images/Icono_Auto.svg",
+        "src":"/images/Seguro_Auto.jpg",
+        "txt":"¿Aún no encontrás el seguro ideal para tu auto?"
+    },
+    {
+        "icon":"/images/Icono_Moto.svg",
+        "src":"/images/Seguro_Moto.jpg",
+        "txt":"Tené la tranquilidad de elegir el mejor seguro para tu moto"
+    },
+    {
+        "icon":"/images/Icono_Bici.svg",
+        "src":"/images/Seguro_Bici.jpg",
+        "txt":"Asegurá tu bicicleta de cualquier peligro"
+    },
+    {
+        "icon":"/images/Icono_Comercio.svg",
+        "src":"/images/Seguro_Comercio.jpg",
+        "txt":"Protegé tu negocio contra riesgos inesperados"
+    },
+    {
+        "icon":"/images/Icono_Hogar.svg",
+        "src":"/images/Seguro_Hogar.jpg",
+        "txt":"¿Seguís buscando la protección perfecta para tu hogar?"
+    }
+]

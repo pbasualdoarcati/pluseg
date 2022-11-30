@@ -1,0 +1,74 @@
+.testimoniosContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+    background-color: #073DAF;
+    .testimoniosImgContainer{
+        height: 150px;
+        width: 150px;
+        margin: 100px 0 20px 0;
+        @media (max-width: 768px){
+            width: 75px;
+            height: 75px;
+        }
+        img{
+            height: 150px;
+            width: 100%;
+            object-fit: cover;
+
+        }
+    }
+    .testimoniosTitleContainer{
+        margin-top: 50px;
+        .testimoniosTitle{
+            font-size: 2.3rem;
+            font-weight: bold;
+            color: #fff ;
+            margin-bottom: 50px;
+            @media (min-width: 768px){
+                font-size: 3rem
+            }
+        }
+    }
+    .testimoniosTextContainer{
+        display: flex;
+        flex-direction: row;
+    }
+}
+.testimoniosTextContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    @media (max-width: 768px){
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .testimoniosContainerCard{
+        background-color: #fff;
+    width: 176px;
+    height: 220px;
+    max-width: 176px!important;
+    max-height: 220px!important;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    .titleTestimoniosCard{
+        color: #00C9EA;
+        font-size: 3rem;
+        margin: 0;
+    }
+    .txtTestimoniosCard{
+        font-size: 14px;
+        margin-bottom: 12px;
+        color: #073DAF;
+    }
+    .authorTestimoniosCard{
+        font-style: italic;
+        font-weight: bold;
+        color: #00C9EA;
+    }
+}
+}

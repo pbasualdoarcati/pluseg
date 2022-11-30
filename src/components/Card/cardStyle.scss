@@ -1,0 +1,78 @@
+.containerSeguros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    @media (max-width: 768px) {
+        display: none;
+    }
+    .cardContainer{
+        width: 239px;
+        cursor: pointer;
+    .imgContainer{
+        width: 237px;
+        height: 284px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .cardImg{
+            width: 100%;
+            object-fit: cover;
+            border-radius: 6%;
+            opacity: 0.2;
+        }
+        .cardTitle{
+            font-size: 2rem;
+            color: #fff;
+            position: absolute;
+            bottom: 56px;
+            text-shadow: -1px 0px 31px rgba(0,0,0,1);
+        }
+        .cardText{
+            font-size: 14px;
+            font-style: italic;
+            font-weight: 500;
+            width: 65%;
+            text-align: center;
+            margin: 30px 0 30px 0;
+            position: absolute;
+            top: 157px;
+            color: #073DAF;
+        }
+        
+    } 
+    .cardContainerText{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: #f1f1f1;
+    }
+}
+.cardContainer:hover{
+    transform: scale(1.1);
+}
+
+.cardComponentContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #00C9EA;
+    margin:30px 0 30px 0
+}
+.cardComponentCard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    max-width: 1024px;
+    @media (max-width: 576px){
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+}
+

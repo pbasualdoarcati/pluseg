@@ -1,0 +1,88 @@
+.aboutContainer{
+    background-color: #073DAF;
+    padding-top: 100px;
+    padding-bottom: 25px;
+    .titleContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .firstName{
+            color: #fff;
+            font-size: 4rem;
+            font-weight: 300;
+            @media (max-width: 768px) {
+                font-size: 2rem;
+            }
+        }
+        .lastName{
+            color: #fff;
+            font-size: 5rem;
+            font-weight: bold;
+            font-style: italic;
+            @media (max-width: 768px) {
+                font-size: 3rem;
+            }
+        }
+        .profession{
+            color: #fff;
+            font-size: 1rem;
+            font-weight: 300;
+            font-style: italic;
+            @media (max-width: 768px) {
+                font-size: 15px;
+            }
+        }
+        .firstTxtHidden{
+            margin-top: 70px;
+            color: #fff;
+            display: none;
+            @media (min-width: 768px) {
+                font-size: 15px;
+                display: flex;
+            }
+        }
+        
+    }
+    .imgContainerAbout{
+        width: 350px;
+        height: 350px;
+        @media (max-width: 768px) {
+            margin-top: 25px;
+            width: 161px;
+            height: 150px;
+        }
+        .imgAbout{
+            width: 350px;
+            height: 350px;
+            object-fit: cover;
+            margin-top: 57px;
+            @media (max-width: 768px) {
+                width: 161px;
+                height: 150px;
+            }
+        }
+    }
+    .firstTxt{
+        margin-top: 70px;
+        color: #fff;
+        display: flex;
+        @media (min-width: 768px) {
+            font-size: 15px;
+            display: none;
+        }
+    }
+        .secondTxt{
+            margin-top: 35px;
+            color: #fff;
+            @media (max-width: 768px) {
+                font-size: 15px;
+            }
+        }
+        .thirdTxt{
+            margin-top: 35px;
+            color: #fff;
+            @media (max-width: 768px) {
+                font-size: 15px;
+            }
+        }
+}
