@@ -18,7 +18,7 @@ const Footer = () => {
       )}
     </OverlayTrigger>   
 
-    <OverlayTrigger placement="bottom" overlay={<Tooltip id="button-tooltip-2">pluseg.info@gmail.com</Tooltip>}>
+    <OverlayTrigger placement="bottom" overlay={<Tooltip id="button-tooltip-2">WhatsApp</Tooltip>}>
       {({ ref2, ...triggerHandler }) => (
         <div {...triggerHandler} className="footerIconsr">
             <h4 className='footerIcons' ref={ref2}onClick={()=>handleClick('https://wa.me/message/CYWA43GWV6TOF1')}><IoLogoWhatsapp /></h4>
