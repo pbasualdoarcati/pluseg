@@ -7,7 +7,7 @@ import './cardMobileStyle.scss'
 const CardMobile = () => {
   return (
     <div className='container containerSegurosMobile'>
-    <Carousel className='sliderMobile'>
+    <Carousel className='sliderMobile' indicators={false} controls={false}>
     {data.map((item, index) =>{
         return(
             <Carousel.Item className='sliderDesktopItemMobile' key={index}>

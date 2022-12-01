@@ -9,7 +9,7 @@ import Planes from './components/Planes/Planes';
 import Preguntas from './components/Preguntas/Preguntas';
 import SliderContainer from './components/Slider/SliderContainer';
 import Testimonios from './components/Testimonios/Testimonios';
-
+import './App.scss'
 
 function App() {
   return (

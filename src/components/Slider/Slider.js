@@ -4,7 +4,7 @@ import './sliderStyle.scss'
 const Slider = () => {
   return (
     <>
-    <Carousel className='sliderContainer'>
+    <Carousel className='sliderContainer' indicators={false} controls={false}>
       <Carousel.Item className='sliderItem'>
           <h3 className='sliderTitle'>Encontrá el seguro adecuado para vos</h3>
           <p className='sliderText'>Recibe asesoría y acompañamiento en la búsqueda de tu seguro</p>
@@ -20,7 +20,7 @@ const Slider = () => {
           </p>
       </Carousel.Item>
     </Carousel>
-    <Carousel className='sliderDesktop'>
+    <Carousel className='sliderDesktop' indicators={false} controls={false}>
       <Carousel.Item className='sliderDesktopItem'>
         <img
           className="d-block w-100 sliderImgDesktop"
